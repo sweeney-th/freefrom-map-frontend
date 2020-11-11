@@ -63,6 +63,7 @@ class UsMap extends Component {
     let color = d3
       .scale
       .linear()
+      .domain(d3.range(1, 5, 1))
       .range(colorRange);
 
     let tooltip = d3
